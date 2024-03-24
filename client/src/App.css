@@ -38,20 +38,41 @@
   }
 }
 
-.todo-container {}
-
-.main-todo {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  row-gap: 3px;
-column-gap: 10px;
+.todo-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
 }
 
-.inner-todo {
-  border: 1px solid red;
-  border-radius: 5px;
-  padding: 5px 10px;
+.todo-list {
+  margin-top: 20px;
+}
 
+.todo-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.todo-item h3 {
+  margin-top: 0;
+}
+
+.user-info {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.user-info h4 {
+  margin-top: 0;
+}
+
+.user-info p {
+  margin: 5px 0;
 }
