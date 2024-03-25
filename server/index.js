@@ -47,7 +47,6 @@ async function startServer() {
         }
     })
 
-
     await server.start()
     app.use(bodyParser.json());
     app.use(cors());
